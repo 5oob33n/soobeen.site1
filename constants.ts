@@ -131,12 +131,12 @@ The vibrations are generated via bone conductor transducers and amplifiers, not 
 I unfold the deconstruction and afterlife of sensation through the vibrations and sounds of the two objects, which the audience witnesses but cannot fully interpret. This work records what remains after sensation has vanished—the ghost of perception—and serves as an act of mourning the disappearance and residue of existence.`,
     
     // 📂 폴더: public/images/autopsy/
-    imageUrl: 'https://picsum.photos/600/400?grayscale&blur=1', // [파일교체시]: '/images/autopsy/main.jpg'
-    audioUrl: 'placeholder', // [파일교체시]: '/images/autopsy/sound.mp3'
+    imageUrl: '/images/autopsy/main.png', // [파일교체시]: '/images/autopsy/main.jpg'
+    audioUrl: '/images/autopsy/final-sequence.wav', // [파일교체시]: '/images/autopsy/sound.mp3'
     videoUrl: 'placeholder', // [파일교체시]: '/images/autopsy/video.mp4' (또는 비메오 URL)
     galleryUrls: [
-       'https://picsum.photos/600/400?grayscale&blur=1', // [파일교체시]: '/images/autopsy/01.jpg'
-       'https://picsum.photos/600/400?grayscale'         // [파일교체시]: '/images/autopsy/02.jpg'
+       '/images/autopsy/01.jpg', // [파일교체시]: '/images/autopsy/01.jpg'
+       //'https://picsum.photos/600/400?grayscale'         // [파일교체시]: '/images/autopsy/02.jpg'
     ]
   },
   {
@@ -151,13 +151,18 @@ I unfold the deconstruction and afterlife of sensation through the vibrations an
     credits: 'Photography: Lars Gonikman, Jennifer Braun',
     
     // 📂 폴더: public/images/resonair/
-    imageUrl: 'https://picsum.photos/seed/resonair1/800/600?grayscale', // [파일교체시]: '/images/resonair/main.jpg'
+    imageUrl: '/images/resonair/main.png', // [파일교체시]: '/images/resonair/main.jpg'
     videoUrl: 'placeholder', // [파일교체시]: '/images/resonair/video.mp4' (또는 비메오 URL)
     galleryUrls: [
-      'https://picsum.photos/seed/resonair1/800/600?grayscale', // [파일교체시]: '/images/resonair/01.jpg'
-      'https://picsum.photos/seed/resonair2/800/600?grayscale', // [파일교체시]: '/images/resonair/02.jpg'
-      'https://picsum.photos/seed/resonair3/800/600?grayscale',
-      'https://picsum.photos/seed/resonair4/800/600?grayscale'
+      '/images/resonair/01.png', // [파일교체시]: '/images/resonair/01.jpg'
+      '/images/resonair/02.png', // [파일교체시]: '/images/resonair/02.jpg'
+      '/images/resonair/03.png',
+      '/images/resonair/04.png',
+      '/images/resonair/05.png',
+      '/images/resonair/06.png',
+      '/images/resonair/07.png',
+      '/images/resonair/08.png',
+      '/images/resonair/09.png'
     ],
     description: `Resonair explores the interplay between breath, presence, and disappearance in an environment saturated with air pollution. At the center of a round wooden table lies a single mask, surrounded by eight others, all connected by glowing fiber optic cables. Each mask emits light and steam, gradually filling the space with a dense, foggy atmosphere.
 
@@ -179,13 +184,16 @@ By rendering breath both as a fleeting trace and an act of survival, Resonair bl
     credits: 'Photography: Lars Gonikman, Soobeen Woo\nVideography: Soobeen Woo',
     
     // 📂 폴더: public/images/afropolik/
-    imageUrl: 'https://picsum.photos/seed/afro1/800/600?grayscale', // [파일교체시]: '/images/afropolik/main.jpg'
+    imageUrl: '/images/afropolik/main.jpg', // [파일교체시]: '/images/afropolik/main.jpg'
     // 비메오 영상 링크 적용됨
     videoUrl: 'https://player.vimeo.com/video/1060243247?badge=0&autopause=0&player_id=0&app_id=58479', 
     galleryUrls: [
-      'https://picsum.photos/seed/afro1/800/600?grayscale', // [파일교체시]: '/images/afropolik/01.jpg'
-      'https://picsum.photos/seed/afro2/800/600?grayscale',
-      'https://picsum.photos/seed/afro3/800/600?grayscale'
+      '/images/afropolik/01.jpg', // [파일교체시]: '/images/afropolik/01.jpg'
+      '/images/afropolik/02.jpg',
+      '/images/afropolik/03.jpg',
+      '/images/afropolik/04.jpg',
+      '/images/afropolik/05.jpg',
+      '/images/afropolik/06.jpg'
     ],
     description: `Afropolik is a kinetic installation that addresses air pollution and the right to breathe. The movement of the motor varies depending on real-time air pollution data, influencing the pressure of a face-like form onto a silicone mat.
 
@@ -205,11 +213,19 @@ By combining mechanical movement and sound, the work alludes to a future where a
     credits: 'Generated with Pika, Sora, Suno',
     
     // 📂 폴더: public/images/antio/
-    imageUrl: 'https://picsum.photos/seed/antio1/800/600?grayscale', // [파일교체시]: '/images/antio/thumbnail.jpg'
+    imageUrl: '/images/antio/main.png', // [파일교체시]: '/images/antio/thumbnail.jpg'
     videoUrl: 'placeholder', // [파일교체시]: '/images/antio/video.mp4' (또는 비메오 URL)
     galleryUrls: [
-      'https://picsum.photos/seed/antio1/800/600?grayscale', // [파일교체시]: '/images/antio/01.jpg'
-      'https://picsum.photos/seed/antio2/800/600?grayscale'
+      '/images/antio/01.png', // [파일교체시]: '/images/antio/01.jpg'
+      '/images/antio/02.png',
+      '/images/antio/03.png',
+      '/images/antio/04.png',
+      '/images/antio/05.png',
+      '/images/antio/06.png',
+      '/images/antio/07.png',
+      '/images/antio/08.png',
+      '/images/antio/09.png',
+      '/images/antio/10.png'
     ],
     description: `This advertisement for Antio Co., a virtual company, is set within the Antio universe, where hidden agendas and corporate propaganda shape reality. Generated using Pika, Sora, and Suno, and edited with After Effects and Ableton Live, the video adopts a creepy and conspiratorial tone, gradually revealing unsettling truths beneath its polished marketing.
 
@@ -229,7 +245,7 @@ The sound design, featuring manipulated voices and distorted audio layers, reinf
     credits: 'Photography: Jennifer Braun, Lars Gonikman',
     
     // 📂 폴더: public/images/echoia/
-    imageUrl: 'https://picsum.photos/seed/echoia1/800/600?grayscale', // [파일교체시]: '/images/echoia/main.jpg'
+    imageUrl: '/images/echoia/main.jpg', // [파일교체시]: '/images/echoia/main.jpg'
     videoUrl: 'placeholder', // [파일교체시]: '/images/echoia/video.mp4' (또는 비메오 URL)
     galleryUrls: [
       'https://picsum.photos/seed/echoia1/800/600?grayscale', // [파일교체시]: '/images/echoia/01.jpg'
@@ -253,11 +269,14 @@ The sound is composed from conversations with a virtual AI that embodies Echoia'
     credits: 'Photography: Hoàng Nguyễn, Út Quyên\nCollaboration: GHTK, Vietnam',
     
     // 📂 폴더: public/images/object-metamorphosis/
-    imageUrl: 'https://picsum.photos/seed/objmeta1/800/600?grayscale', // [파일교체시]: '/images/object-metamorphosis/main.jpg'
+    imageUrl: '/images/object-metamorphosis/main.jpeg', // [파일교체시]: '/images/object-metamorphosis/main.jpg'
     galleryUrls: [
-      'https://picsum.photos/seed/objmeta1/800/600?grayscale', // [파일교체시]: '/images/object-metamorphosis/01.jpg'
-      'https://picsum.photos/seed/objmeta2/800/600?grayscale',
-      'https://picsum.photos/seed/objmeta3/800/600?grayscale'
+      '/images/object-metamorphosis/01.jpg', // [파일교체시]: '/images/object-metamorphosis/01.jpg'
+      '/images/object-metamorphosis/02.jpg',
+      '/images/object-metamorphosis/03.jpeg',
+      '/images/object-metamorphosis/04.jpeg',
+      '/images/object-metamorphosis/05.jpg',
+      '/images/object-metamorphosis/06.jpg'
     ],
     description: `Object Metamorphosis focuses on the mobility of landscapes and their transformation, exploring the relationship between the material and the virtual. Disappearing physical environments, such as glaciers in New Zealand, were documented through personal video recordings and transformed into 3D scans using Luma AI.
 
@@ -274,7 +293,7 @@ The typography reflects this intention, designed in a fragmented and incomplete 
     location: 'Germany',
     
     // 📂 폴더: public/images/debris-tracer/
-    imageUrl: 'https://picsum.photos/seed/debris1/500/500?grayscale', // [파일교체시]: '/images/debris-tracer/main.jpg'
+    imageUrl: '/images/debris-tracer/main.png', // [파일교체시]: '/images/debris-tracer/main.jpg'
     videoUrl: 'placeholder', // [파일교체시]: '/images/debris-tracer/video.mp4' (또는 비메오 URL)
     galleryUrls: [
       'https://picsum.photos/seed/debris1/800/600?grayscale', // [파일교체시]: '/images/debris-tracer/01.jpg'
@@ -295,7 +314,7 @@ The final page offers a unique experience with each visit, featuring diverse mus
     location: 'Korea',
     
     // 📂 폴더: public/images/jujube/
-    imageUrl: 'https://picsum.photos/600/450?grayscale', // [파일교체시]: '/images/jujube/main.jpg'
+    imageUrl: '/images/jujube/main.png', // [파일교체시]: '/images/jujube/main.jpg'
     videoUrl: 'placeholder', // [파일교체시]: '/images/jujube/video.mp4' (또는 비메오 URL)
     galleryUrls: [
       'https://picsum.photos/600/450?grayscale', // [파일교체시]: '/images/jujube/01.jpg'
@@ -314,7 +333,7 @@ In this artwork, the jujube serves as a prominent motif that will greatly influe
     location: 'Korea',
     
     // 📂 폴더: public/images/seed-capsule/
-    imageUrl: 'https://picsum.photos/seed/seedcapsule1/600/400?grayscale', // [파일교체시]: '/images/seed-capsule/main.jpg'
+    imageUrl: '/images/seed-capsule/main.png', // [파일교체시]: '/images/seed-capsule/main.jpg'
     videoUrl: 'placeholder', // [파일교체시]: '/images/seed-capsule/vr-demo.mp4' (또는 비메오 URL)
     galleryUrls: [
       'https://picsum.photos/seed/seedcapsule1/600/400?grayscale', // [파일교체시]: '/images/seed-capsule/01.jpg'
@@ -333,7 +352,7 @@ This work takes the form of an interactive VR experience, comprising rooms with 
     location: 'Korea',
     
     // 📂 폴더: public/images/vom-blick/
-    imageUrl: 'https://picsum.photos/600/350?grayscale', // [파일교체시]: '/images/vom-blick/thumbnail.jpg'
+    imageUrl: '/images/vom-blick/main.png', // [파일교체시]: '/images/vom-blick/thumbnail.jpg'
     videoUrl: 'placeholder', // [파일교체시]: '/images/vom-blick/video.mp4' (또는 비메오 URL)
     galleryUrls: [
       'https://picsum.photos/600/350?grayscale', // [파일교체시]: '/images/vom-blick/01.jpg'
@@ -352,7 +371,7 @@ I steer the narrative of the video by vigilantly considering when I view things 
     location: 'Korea',
     
     // 📂 폴더: public/images/oensa-ant/
-    imageUrl: 'https://picsum.photos/600/400?grayscale', // [파일교체시]: '/images/oensa-ant/thumbnail.jpg'
+    imageUrl: '/images/oensa-ant/main.png', // [파일교체시]: '/images/oensa-ant/thumbnail.jpg'
     videoUrl: 'placeholder', // [파일교체시]: '/images/oensa-ant/video.mp4' (또는 비메오 URL)
     galleryUrls: [
       'https://picsum.photos/600/400?grayscale', // [파일교체시]: '/images/oensa-ant/01.jpg'
