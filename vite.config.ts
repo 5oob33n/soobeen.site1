@@ -4,11 +4,10 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // GitHub Pages에서 프로젝트가 올라가는 기본 경로
-  // 주소: https://5oob33n.github.io/soobeen-woo-portfolio
-  base: '/soobeen-woo-portfolio/',
+  // build 된 index.html이 있는 위치(= /soobeen-woo-portfolio/)를 기준으로
+  // 상대 경로로 assets를 찾게 하기 위해 './' 로 설정
+  base: './',
   build: {
-    // GitHub Pages용으로 main 브랜치의 docs 폴더에 빌드
-    outDir: 'docs'
+    outDir: 'docs' // GitHub Pages에서 사용할 폴더
   }
 })
