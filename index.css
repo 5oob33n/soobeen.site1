@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Hide scrollbar for cleaner aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background: #000;
+}
+::selection {
+  background: #000;
+  color: #fff;
+}
+
+/* Animated Film Grain / Static Noise */
+@keyframes grain {
+  0%, 100% { background-position: 0 0; }
+  10% { background-position: -5% -10%; }
+  20% { background-position: -15% 5%; }
+  30% { background-position: 7% -25%; }
+  40% { background-position: 20% 25%; }
+  50% { background-position: -25% 10%; }
+  60% { background-position: 15% 5%; }
+  70% { background-position: 0% 15%; }
+  80% { background-position: 25% 35%; }
+  90% { background-position: -10% 10%; }
+}
+
+.noise {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.18;
+  backdrop-filter: blur(1.5px);
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='turbulence' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  animation: grain 0.5s steps(10) infinite;
+}
+
+@keyframes vibrate {
+  0% { transform: translate(0); }
+  20% { transform: translate(-0.5px, 0.5px); }
+  40% { transform: translate(-0.5px, -0.5px); }
+  60% { transform: translate(0.5px, 0.5px); }
+  80% { transform: translate(0.5px, -0.5px); }
+  100% { transform: translate(0); }
+}
+
+.animate-vibrate {
+  animation: vibrate 0.3s linear infinite;
+}
+
+/* Utility for fade-in animations */
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
