@@ -144,7 +144,7 @@ I unfold the deconstruction and afterlife of sensation through the vibrations an
     credits: 'Photography: Lars Gonikman, Jennifer Braun',
     
     // 📂 폴더: public/images/resonair/
-    imageUrl: 'https://picsum.photos/seed/resonair1/800/600?grayscale', // [파일교체시]: '/images/resonair/main.jpg'
+    imageUrl: '/images/resonair/main.png', // [파일교체시]: '/images/resonair/main.jpg'
     videoUrl: 'placeholder', // [파일교체시]: '/images/resonair/video.mp4' (또는 비메오)
     galleryUrls: [
       'https://picsum.photos/seed/resonair1/800/600?grayscale', // [파일교체시]: '/images/resonair/01.jpg'
