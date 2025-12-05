@@ -1,7 +1,6 @@
-/* 
-  NOTE: @tailwind directives are removed here because we are using the CDN in index.html for the preview.
-  If building locally with a bundler, you would add them back.
-*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
   margin: 0;
