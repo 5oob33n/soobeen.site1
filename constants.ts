@@ -148,7 +148,7 @@ I unfold the deconstruction and afterlife of sensation through the vibrations an
     
     // 📂 폴더: public/images/resonair/
     imageUrl: '/images/resonair/main.png', // [파일교체시]: '/images/resonair/main.jpg'
-    videoUrl: 'placeholder', // [파일교체시]: '/images/resonair/video.mp4' (또는 비메오)
+    videoUrl: 'https://vimeo.com/1144115072', // [파일교체시]: '/images/resonair/video.mp4' (또는 비메오)
     galleryUrls: [
       '/images/resonair/01.png', // [파일교체시]: '/images/resonair/01.jpg'
       '/images/resonair/02.png', // [파일교체시]: '/images/resonair/02.jpg'
@@ -181,7 +181,7 @@ By rendering breath both as a fleeting trace and an act of survival, Resonair bl
     
     // 📂 폴더: public/images/afropolik/
     imageUrl: '/images/afropolik/main.jpg', // [파일교체시]: '/images/afropolik/main.jpg'
-    videoUrl: 'placeholder', // [파일교체시]: '/images/afropolik/video.mp4' (또는 비메오)
+    videoUrl: 'https://vimeo.com/1060243247', // [파일교체시]: '/images/afropolik/video.mp4' (또는 비메오)
     galleryUrls: [
       '/images/afropolik/01.jpg', // [파일교체시]: '/images/afropolik/01.jpg'
       '/images/afropolik/02.jpg',
@@ -208,7 +208,7 @@ By combining mechanical movement and sound, the work alludes to a future where a
     
     // 📂 폴더: public/images/antio/
     imageUrl: '/images/antio/main.png', // [파일교체시]: '/images/antio/thumbnail.jpg'
-    videoUrl: 'placeholder', // [파일교체시]: '/images/antio/video.mp4' (또는 비메오)
+    videoUrl: 'https://vimeo.com/1061963881', // [파일교체시]: '/images/antio/video.mp4' (또는 비메오)
     galleryUrls: [
       '/images/antio/01.png', // [파일교체시]: '/images/antio/01.jpg'
       '/images/antio/02.png',
@@ -240,7 +240,7 @@ The sound design, featuring manipulated voices and distorted audio layers, reinf
     
     // 📂 폴더: public/images/echoia/
     imageUrl: '/images/echoia/main.jpg', // [파일교체시]: '/images/echoia/main.jpg'
-    videoUrl: 'placeholder', // [파일교체시]: '/images/echoia/video.mp4' (또는 비메오)
+    videoUrl: 'https://vimeo.com/1043418455', // [파일교체시]: '/images/echoia/video.mp4' (또는 비메오)
     galleryUrls: [
       //'https://picsum.photos/seed/echoia1/800/600?grayscale', // [파일교체시]: '/images/echoia/01.jpg'
       //'https://picsum.photos/seed/echoia2/800/600?grayscale',
@@ -288,7 +288,7 @@ The typography reflects this intention, designed in a fragmented and incomplete 
     
     // 📂 폴더: public/images/debris-tracer/
     imageUrl: '/images/debris-tracer/main.png', // [파일교체시]: '/images/debris-tracer/main.jpg'
-    videoUrl: 'placeholder', // [파일교체시]: '/images/debris-tracer/video.mp4' (또는 비메오)
+    videoUrl: 'https://vimeo.com/918490095', // [파일교체시]: '/images/debris-tracer/video.mp4' (또는 비메오)
     galleryUrls: [
       //'https://picsum.photos/seed/debris1/800/600?grayscale', // [파일교체시]: '/images/debris-tracer/01.jpg'
       //'https://picsum.photos/seed/debris2/800/600?grayscale'
@@ -309,7 +309,7 @@ The final page offers a unique experience with each visit, featuring diverse mus
     
     // 📂 폴더: public/images/jujube/
     imageUrl: '/images/jujube/main.png', // [파일교체시]: '/images/jujube/main.jpg'
-    videoUrl: 'placeholder', // [파일교체시]: '/images/jujube/video.mp4' (또는 비메오)
+    videoUrl: 'https://vimeo.com/863884778', // [파일교체시]: '/images/jujube/video.mp4' (또는 비메오)
     galleryUrls: [
       //'https://picsum.photos/600/450?grayscale', // [파일교체시]: '/images/jujube/01.jpg'
       //'https://picsum.photos/600/450?grayscale&blur=2'
@@ -328,7 +328,7 @@ In this artwork, the jujube serves as a prominent motif that will greatly influe
     
     // 📂 폴더: public/images/seed-capsule/
     imageUrl: '/images/seed-capsule/main.png', // [파일교체시]: '/images/seed-capsule/main.jpg'
-    videoUrl: 'placeholder', // [파일교체시]: '/images/seed-capsule/vr-demo.mp4' (또는 비메오)
+    videoUrl: 'https://vimeo.com/916853940', // [파일교체시]: '/images/seed-capsule/vr-demo.mp4' (또는 비메오)
     galleryUrls: [
       //'https://picsum.photos/seed/seedcapsule1/600/400?grayscale', // [파일교체시]: '/images/seed-capsule/01.jpg'
       //'https://picsum.photos/seed/seedcapsule2/600/400?grayscale'
@@ -347,7 +347,7 @@ This work takes the form of an interactive VR experience, comprising rooms with 
     
     // 📂 폴더: public/images/vom-blick/
     imageUrl: '/images/vom-blick/main.png', // [파일교체시]: '/images/vom-blick/thumbnail.jpg'
-    videoUrl: 'placeholder', // [파일교체시]: '/images/vom-blick/video.mp4' (또는 비메오)
+    videoUrl: 'https://vimeo.com/916350613', // [파일교체시]: '/images/vom-blick/video.mp4' (또는 비메오)
     galleryUrls: [
       //'https://picsum.photos/600/350?grayscale', // [파일교체시]: '/images/vom-blick/01.jpg'
       //'https://picsum.photos/600/350?grayscale&blur=2'
@@ -366,7 +366,7 @@ I steer the narrative of the video by vigilantly considering when I view things 
     
     // 📂 폴더: public/images/oensa-ant/
     imageUrl: '/images/oensa-ant/main.png', // [파일교체시]: '/images/oensa-ant/thumbnail.jpg'
-    videoUrl: 'placeholder', // [파일교체시]: '/images/oensa-ant/video.mp4' (또는 비메오)
+    videoUrl: 'https://vimeo.com/860863523', // [파일교체시]: '/images/oensa-ant/video.mp4' (또는 비메오)
     galleryUrls: [
       //'https://picsum.photos/600/400?grayscale', // [파일교체시]: '/images/oensa-ant/01.jpg'
       //'https://picsum.photos/600/400?grayscale&blur=2'

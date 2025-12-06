@@ -1,6 +1,3 @@
-
-
-
 import React, { useState, useEffect } from 'react';
 import AsciiBackground from './components/AsciiBackground';
 import GlitchText from './components/GlitchText';
@@ -92,6 +89,30 @@ const App: React.FC = () => {
   // Helper to determine if video is local file or external embed
   const isLocalVideo = (url: string) => {
     return url.endsWith('.mp4') || url.endsWith('.webm') || url.endsWith('.ogg');
+  };
+
+  // Helper to process video URLs (Smart Convert)
+  const getEmbedUrl = (url: string) => {
+    if (!url) return '';
+    
+    // If it's already an embed link (youtube/vimeo player), return as is
+    if (url.includes('player.vimeo.com/video') || url.includes('youtube.com/embed')) {
+      return url;
+    }
+    
+    // Vimeo standard URL: https://vimeo.com/123456789 or with query params
+    const vimeoMatch = url.match(/vimeo\.com\/(\d+)/);
+    if (vimeoMatch && vimeoMatch[1]) {
+      return `https://player.vimeo.com/video/${vimeoMatch[1]}?title=0&byline=0&portrait=0`;
+    }
+
+    // YouTube standard URL (various formats)
+    const youtubeMatch = url.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))([^#&?]*)/);
+    if (youtubeMatch && youtubeMatch[1]) {
+      return `https://www.youtube.com/embed/${youtubeMatch[1]}`;
+    }
+    
+    return url;
   };
 
   const renderCVSection = (title: string, items: CVItem[]) => (
@@ -382,9 +403,9 @@ const App: React.FC = () => {
                                   Your browser does not support the video tag.
                                 </video>
                              ) : (
-                                /* External Embed (Vimeo/YouTube) */
+                                /* External Embed (Vimeo/YouTube) with Smart Convert */
                                 <iframe 
-                                  src={selectedProjectData.videoUrl} 
+                                  src={getEmbedUrl(selectedProjectData.videoUrl)} 
                                   className="w-full h-full" 
                                   title={`${selectedProjectData.title} video`}
                                   frameBorder="0" 
@@ -451,7 +472,10 @@ const App: React.FC = () => {
                             <div className="font-mono text-[10px] text-gray-400 mb-2">{w.date}</div>
                             <h3 className="text-2xl font-heading font-medium mb-3 group-hover:italic transition-all">{w.title}</h3>
                             <p className="text-sm font-light leading-relaxed text-gray-600">{w.summary}</p>
-                            <div className="mt-4 w-12 h-px bg-gray-200 group-hover:w-full transition-all duration-500"></div>
+                            <button className="mt-4 text-xs font-bold uppercase tracking-widest border-b border-black pb-0.5 hover:opacity-50 transition-opacity">
+                              Read Essay
+                            </button>
+                            <div className="mt-6 w-12 h-px bg-gray-200 group-hover:w-full transition-all duration-500"></div>
                          </article>
                       ))}
                     </div>
@@ -506,8 +530,8 @@ const App: React.FC = () => {
                     {/* Resume / CV Sections */}
                     <div className="border-t border-black pt-16">
                       {renderCVSection('Education', EDUCATION)}
-                      {renderCVSection('Exhibitions & Performances', EXHIBITIONS)}
-                      {renderCVSection('Awards & Grants', AWARDS)}
+                      {renderCVSection('Exhibitions', EXHIBITIONS)}
+                      {renderCVSection('Awards & Grants & Performances', AWARDS)}
                       {renderCVSection('Experience', EXPERIENCES)}
                       {renderCVSection('Work', WORK)}
                       {renderCVSection('Contributions', CONTRIBUTIONS)}
